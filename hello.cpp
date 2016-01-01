@@ -9,7 +9,7 @@ inline void keepOpen() { char ch; cin>>ch; }
 
 int main() {
 
-  cout<<"Hello, World!\n";
+  cout<<"Hello, programming!\nHere we go!\n";
   keepOpen();
   return 0;
 
