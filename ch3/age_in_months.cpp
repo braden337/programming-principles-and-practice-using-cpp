@@ -8,9 +8,12 @@ using namespace std;
 inline void keepOpen() { char ch; cin>>ch; }
 
 int main() {
-
-  cout<<"Hello, programming!\nHere we go!\n";
-  keepOpen();
-  return 0;
+  
+  string name = "x";
+  double age = 0;
+  cout<<"Enter your name and age:\n";
+  cin>>name>>age;
+  age*=12;
+  cout<<"Hello "<<name<<" (age: "<<age<<" months)\n";
 
 }
